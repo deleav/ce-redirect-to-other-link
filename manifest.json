@@ -1,0 +1,15 @@
+  {
+    "name": "Redirect to other url",
+    "version": "1.0",
+    "description": "Redirect url by replace string",
+    "permissions": [
+      "tabs",
+      "http://*/",
+      "https://*/"
+    ],
+    "background": {
+      "scripts": [ "background.js" ],
+      "persistent": false
+    },
+    "manifest_version": 2
+  }
